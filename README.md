@@ -38,6 +38,9 @@ To use this script, ensure that you have the following prerequisites installed o
 
    ```bash
    npm run dev
+   ```
+   Now you can change your code (index.ts or any newly created file) and the files are automatically compiled and updated in real-time.
+   happyHacking!!
 
 ## Note
 1. Once installed, you can remove the folder 'default', which contains the script.
