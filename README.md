@@ -39,7 +39,7 @@ To use this script, ensure that you have the following prerequisites installed o
    ```bash
    npm run dev
 
-##Note
+## Note
 1. Once installed, you can remove the folder 'default', which contains the script.
 2. The script can be copies to any folder and executed. The project always takes the name of the parent folder.
 3. If the working directory already has a tscofig.json file, then it will be deleted and a new one is created. Other files are overwritten.
