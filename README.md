@@ -34,7 +34,7 @@ To use this script, ensure that you have the following prerequisites installed o
    ```
    Wait for the packages to download.
 
-5. Voila!! Now the server is ready to start and code. To start the server, run the following code
+5. Voila!! Now the server is ready to start and code. To start the server, run the following command
 
    ```bash
    npm run dev
@@ -44,6 +44,6 @@ To use this script, ensure that you have the following prerequisites installed o
 
 ## Note
 1. Once installed, you can remove the folder 'default', which contains the script.
-2. The script can be copies to any folder and executed. The project always takes the name of the parent folder.
+2. The script can be copies to any folder and executed. The project always takes the name of the present working directory, not of parent directory.
 3. If the working directory already has a tscofig.json file, then it will be deleted and a new one is created. Other files are overwritten.
 4. "dist" folder contains all transpiled files aka JS files.
