@@ -14,7 +14,7 @@ echo "Creating a Type/Express project with name $(basename "$(pwd)")"
 echo "{
   \"name\": \"ExpressTS\",
   \"version\": \"1.0.0\",
-  \"description\": \"Created using BashScript (https://github.com/Abhishek-K-S/express-ts-bootstrap-bash/tree/main)\",
+  \"description\": \"Created using BashScript (https://github.com/Abhishek-K-S/express-ts-setup-bash/tree/main)\",
   \"main\": \"dist/index.js\",
   \"scripts\": {
     \"build\": \"npx tsc\",

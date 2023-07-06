@@ -22,12 +22,15 @@ To use this script, ensure that you have the following prerequisites installed o
    ```bash
    curl -fsSL https://abhishek-k-s.github.io/express-ts-setup-bash/setup.sh | sh
    ```
-   Wait for the packages to download.
+   Wait for all packages to download.
 
-3. Voila!! Now the server is ready to start and code. To start the server, run the following code
+3. Voila!! Now the server is ready to start and code. To start the server, run the following code:
 
    ```bash
    npm run dev
+   ```
+   Now you can change your code (index.ts or any newly created file) and the files are automatically compiled and updated in real-time.
+   happyHacking!!
 
 ##Note
 1. If the working directory already has a tscofig.json file, then it will be deleted and a new one is created.
