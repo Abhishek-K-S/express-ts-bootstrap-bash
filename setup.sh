@@ -8,12 +8,11 @@ else
   exit 1
 fi
 
-this_folder=$(basename "$(pwd)")
-echo "Creating a Type/Express project with name $this_folder"
+echo "Creating a Type/Express project with name $(basename "$(pwd)")"
 
 # create a custom package.json file
 echo "{
-  \"name\": \"$this_folder\",
+  \"name\": \"ExpressTS\",
   \"version\": \"1.0.0\",
   \"description\": \"Created using BashScript (https://github.com/Abhishek-K-S/express-ts-bootstrap-bash/tree/main)\",
   \"main\": \"dist/index.js\",
@@ -23,7 +22,7 @@ echo "{
     \"dev\": \"concurrently \\\"npx tsc --watch\\\" \\\"nodemon -q dist/index.js\\\"\"
   },
   \"keywords\": [],
-  \"author\": \"Abhishek K S\",
+  \"author\": \"\",
   \"license\": \"MIT\"
 }
 " > package.json

@@ -12,35 +12,24 @@ To use this script, ensure that you have the following prerequisites installed o
 
 ## Getting Started
 
-1. Clone this repository to your local machine:
+1. Create your project directory ( if not done so ) and move inside it:
+   ```bash
+   mkdir your_project_folder
+   cd your_project_folder
+
+2. Run the below script to generate the Express server:
 
    ```bash
-   git clone https://github.com/Abhishek-K-S/express-ts-setup-bash.git
-
-2. Rename the folder to the project name:
-
-   ```bash
-   mv express-ts-setup-bash your_project_name
-   
-3. Navigate to the cloned repository:
-
-   ```bash
-   cd your_project_name
-
-4. Run the below script to generate the Express server:
-
-   ```bash
-   sh default/setup.sh
+   curl -fsSL https://abhishek-k-s.github.io/express-ts-setup-bash/setup.sh | sh
    ```
    Wait for the packages to download.
 
-5. Voila!! Now the server is ready to start and code. To start the server, run the following code
+3. Voila!! Now the server is ready to start and code. To start the server, run the following code
 
    ```bash
    npm run dev
 
 ##Note
-1. Once installed, you can remove the folder 'default', which contains the script.
-2. The script can be copies to any folder and executed. The project always takes the name of the parent folder.
-3. If the working directory already has a tscofig.json file, then it will be deleted and a new one is created. Other files are overwritten.
-4. "dist" folder contains all transpiled files aka JS files.
+1. If the working directory already has a tscofig.json file, then it will be deleted and a new one is created.
+2. If package.json, package-lock.json, .env or index.ts file/files already exists inside the project directory, then those files are overwritten and previous data will be lost.
+3. "dist" folder contains all transpiled files aka JS files. Do not modify them.
