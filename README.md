@@ -9,6 +9,7 @@ To use this script, ensure that you have the following prerequisites installed o
 
 - Node.js (version >= 14.x)
 - npm (Node Package Manager)
+- Git bash for windows users. Linux users can use any terminal.
 
 ## Getting Started
 
@@ -20,7 +21,7 @@ To use this script, ensure that you have the following prerequisites installed o
 2. Run the below script to generate the Express server:
 
    ```bash
-   curl -fsSL https://abhishek-k-s.github.io/express-ts-setup-bash/setup.sh | sh
+   curl -fsSL https://abhishek-k-s.github.io/express-ts-setup-bash/setup.sh --ssl-no-revoke | bash
    ```
    Wait for all packages to download.
 
