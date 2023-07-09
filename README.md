@@ -24,7 +24,7 @@ To use this script, ensure that you have the following prerequisites installed o
    ```
    Wait for all packages to download.
 
-3. Voila!! Now the server is ready to start and code. To start the server, run the following code:
+3. Voila!! Now the server is ready to run and code. To start the server, run the following code:
 
    ```bash
    npm run dev
