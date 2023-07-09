@@ -21,7 +21,7 @@ To use this script, ensure that you have the following prerequisites installed o
 2. Run the below script to generate the Express server:
 
    ```bash
-   curl -fsSL https://abhishek-k-s.github.io/express-ts-setup-bash/setup.sh --ssl-no-revoke | bash
+   curl -fsSL https://raw.githubusercontent.com/Abhishek-K-S/express-ts-setup-bash/main/setup.sh --ssl-no-revoke | bash
    ```
    Wait for all packages to download.
 
@@ -33,7 +33,7 @@ To use this script, ensure that you have the following prerequisites installed o
    Now you can change your code (index.ts or any newly created file) and the files are automatically compiled and updated in real-time.
    happyHacking!!
 
-##Note
+## Note
 1. If the working directory already has a tscofig.json file, then it will be deleted and a new one is created.
 2. If package.json, package-lock.json, .env or index.ts file/files already exists inside the project directory, then those files are overwritten and previous data will be lost.
 3. "dist" folder contains all transpiled files aka JS files. Do not modify them.
