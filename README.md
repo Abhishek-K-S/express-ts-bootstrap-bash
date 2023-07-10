@@ -12,7 +12,7 @@ To use this script, ensure that you have the following prerequisites installed o
 - Git bash for windows users. Linux users can use any terminal.
 
 ## Getting Started
-
+## Method 1: (Preffered)
 1. Create your project directory ( if not done so ) and move inside it:
    ```bash
    mkdir your_project_folder
@@ -32,6 +32,22 @@ To use this script, ensure that you have the following prerequisites installed o
    ```
    Now you can change your code (index.ts or any newly created file) and the files are automatically compiled and updated in real-time.
    happyHacking!!
+
+## Method 2: (If the first method doesn't work for you)
+1. Clone this repository to your machine:
+   ```bash
+   git clone
+   ```
+2. Now move inside the cloned repository and run the following command to install all node packages:
+   ```bash
+   cd express-ts-setup-bash
+   npm i
+   ```
+3. Now you can start your server with the following command:
+   ```bash
+   npm run dev
+   ```
+   Now you can edit your code and look for changes in real-time. happyHacking!!
 
 ## Note
 1. If the working directory already has a tscofig.json file, then it will be deleted and a new one is created.
