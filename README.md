@@ -12,7 +12,7 @@ To use this script, ensure that you have the following prerequisites installed o
 - Git bash for windows users. Linux users can use any terminal.
 
 ## Getting Started
-## Method 1: (Preffered)
+## Method 1: (Preferred)
 1. Create your project directory ( if not done so ) and move inside it:
    ```bash
    mkdir your_project_folder
