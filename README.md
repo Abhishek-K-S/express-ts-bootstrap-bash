@@ -36,7 +36,7 @@ To use this script, ensure that you have the following prerequisites installed o
 ## Method 2: (If the first method doesn't work for you)
 1. Clone this repository to your machine:
    ```bash
-   git clone
+   git clone https://github.com/Abhishek-K-S/express-ts-setup-bash.git
    ```
 2. Now move inside the cloned repository and run the following command to install all node packages:
    ```bash
